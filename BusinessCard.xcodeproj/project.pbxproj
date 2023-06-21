@@ -11,14 +11,18 @@
 		B1BE6E162A438C1C0099592E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BE6E152A438C1C0099592E /* ContentView.swift */; };
 		B1BE6E182A438C1E0099592E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1BE6E172A438C1E0099592E /* Assets.xcassets */; };
 		B1BE6E1B2A438C1E0099592E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1BE6E1A2A438C1E0099592E /* Preview Assets.xcassets */; };
+		B1BE6E252A4398690099592E /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BE6E242A4398690099592E /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B1BE6E102A438C1C0099592E /* KevinCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KevinCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1BE6E102A438C1C0099592E /* BusinessCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusinessCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1BE6E132A438C1C0099592E /* KevinCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KevinCardApp.swift; sourceTree = "<group>"; };
 		B1BE6E152A438C1C0099592E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B1BE6E172A438C1E0099592E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1BE6E1A2A438C1E0099592E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B1BE6E222A43920C0099592E /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		B1BE6E232A4392840099592E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B1BE6E242A4398690099592E /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +47,7 @@
 		B1BE6E112A438C1C0099592E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B1BE6E102A438C1C0099592E /* KevinCard.app */,
+				B1BE6E102A438C1C0099592E /* BusinessCard.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +55,11 @@
 		B1BE6E122A438C1C0099592E /* KevinCard */ = {
 			isa = PBXGroup;
 			children = (
+				B1BE6E232A4392840099592E /* Info.plist */,
+				B1BE6E212A4391FA0099592E /* fonts */,
 				B1BE6E132A438C1C0099592E /* KevinCardApp.swift */,
 				B1BE6E152A438C1C0099592E /* ContentView.swift */,
+				B1BE6E242A4398690099592E /* InfoView.swift */,
 				B1BE6E172A438C1E0099592E /* Assets.xcassets */,
 				B1BE6E192A438C1E0099592E /* Preview Content */,
 			);
@@ -67,12 +74,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B1BE6E212A4391FA0099592E /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B1BE6E222A43920C0099592E /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B1BE6E0F2A438C1C0099592E /* KevinCard */ = {
+		B1BE6E0F2A438C1C0099592E /* BusinessCard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1BE6E1E2A438C1E0099592E /* Build configuration list for PBXNativeTarget "KevinCard" */;
+			buildConfigurationList = B1BE6E1E2A438C1E0099592E /* Build configuration list for PBXNativeTarget "BusinessCard" */;
 			buildPhases = (
 				B1BE6E0C2A438C1C0099592E /* Sources */,
 				B1BE6E0D2A438C1C0099592E /* Frameworks */,
@@ -82,9 +97,9 @@
 			);
 			dependencies = (
 			);
-			name = KevinCard;
+			name = BusinessCard;
 			productName = KevinCard;
-			productReference = B1BE6E102A438C1C0099592E /* KevinCard.app */;
+			productReference = B1BE6E102A438C1C0099592E /* BusinessCard.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +117,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B1BE6E0B2A438C1C0099592E /* Build configuration list for PBXProject "KevinCard" */;
+			buildConfigurationList = B1BE6E0B2A438C1C0099592E /* Build configuration list for PBXProject "BusinessCard" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B1BE6E0F2A438C1C0099592E /* KevinCard */,
+				B1BE6E0F2A438C1C0099592E /* BusinessCard */,
 			);
 		};
 /* End PBXProject section */
@@ -138,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1BE6E162A438C1C0099592E /* ContentView.swift in Sources */,
+				B1BE6E252A4398690099592E /* InfoView.swift in Sources */,
 				B1BE6E142A438C1C0099592E /* KevinCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +291,7 @@
 				DEVELOPMENT_TEAM = YUC46TR59W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KevinCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +321,7 @@
 				DEVELOPMENT_TEAM = YUC46TR59W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KevinCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -325,7 +343,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B1BE6E0B2A438C1C0099592E /* Build configuration list for PBXProject "KevinCard" */ = {
+		B1BE6E0B2A438C1C0099592E /* Build configuration list for PBXProject "BusinessCard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B1BE6E1C2A438C1E0099592E /* Debug */,
@@ -334,7 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1BE6E1E2A438C1E0099592E /* Build configuration list for PBXNativeTarget "KevinCard" */ = {
+		B1BE6E1E2A438C1E0099592E /* Build configuration list for PBXNativeTarget "BusinessCard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B1BE6E1F2A438C1E0099592E /* Debug */,
